@@ -77,7 +77,7 @@ def get_exp_dir(config, auto_remove_exp_dir=False):
     os.makedirs(video_dir)
     return log_dir, output_dir, video_dir
 
-
+# Change from Behavior Retireval Repo
 def load_data_for_training(config, obs_keys):
     """
     Data loading at the start of an algorithm.
@@ -111,7 +111,7 @@ def load_data_for_training(config, obs_keys):
 
     return train_dataset, valid_dataset
 
-
+# Change from Behavior Retireval Repo
 def dataset_factory(config, obs_keys, filter_by_attribute=None, dataset_path=None):
     """
     Create a SequenceDataset instance to pass to a torch DataLoader.

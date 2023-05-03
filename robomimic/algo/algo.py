@@ -292,6 +292,9 @@ class Algo(object):
         """
         pass
 
+# Use from Behavior Retrieval Repo
+class WeighingAlgo(Algo):
+    pass
 
 class PolicyAlgo(Algo):
     """
